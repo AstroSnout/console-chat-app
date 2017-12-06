@@ -28,7 +28,6 @@ class Listen(Thread):
         self.start()
         print('Listening...')
 
-
     def run(self):
         while True:
             try:
